@@ -2,7 +2,7 @@
  Receber um número do usuário e imprimir na tela se ele é igual a 5, a 200, a 400,
 se está no intervalo entre 500 e 1000, inclusive, ou se ele está fora dos escopos
 anteriores.
-/*
+*/
 
 // Solicitar um número ao usuário
 let numero = parseFloat(prompt("Digite um número:"));
