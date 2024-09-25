@@ -45,13 +45,14 @@ No meu código, o typeof é usado para verificar se uma variável contém uma st
 --- 
 
 # Exemplo no Código
-javascript
+```javascript
 Copiar código
 if (typeof raizQuadradaMaior === "string") {
     // Exibe a mensagem de erro
 } else {
     // Exibe a raiz quadrada
 }
+```
 
 Dessa forma, o typeof ajuda a garantir que o código se comporta conforme esperado, dependendo do tipo de dado que está lidando.
 
