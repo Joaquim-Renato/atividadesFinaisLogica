@@ -52,3 +52,39 @@ if (typeof raizQuadradaMaior === "string") {
 }
 
 Dessa forma, o typeof ajuda a garantir que o código se comporta conforme esperado, dependendo do tipo de dado que está lidando.
+
+----
+# Explicação do Comando `charAt(0).toUpperCase()`
+
+O comando `charAt(0).toUpperCase()` é utilizado em JavaScript para manipular strings. Ele é frequentemente empregado para extrair e formatar a primeira letra de uma string.
+
+## Componentes do Comando
+
+1. **`charAt(index)`**:
+   - O método `charAt()` retorna o caractere na posição especificada de uma string.
+   - O índice é baseado em zero, ou seja, `0` representa o primeiro caractere.
+   - **Exemplo**:
+     ```javascript
+     let nome = "Alice";
+     let primeiraLetra = nome.charAt(0); // Retorna "A"
+     ```
+
+2. **`toUpperCase()`**:
+   - O método `toUpperCase()` transforma todos os caracteres de uma string em letras maiúsculas.
+   - Ele é aplicado à string que `charAt()` retorna.
+   - **Exemplo**:
+     ```javascript
+     let letra = "a";
+     let letraMaiuscula = letra.toUpperCase(); // Retorna "A"
+     ```
+
+## Juntando os Componentes
+
+Quando utilizados juntos como `charAt(0).toUpperCase()`, esses métodos permitem que você extraia a primeira letra de uma string e a converta para maiúscula, independentemente de como o usuário a digitou.
+
+### Exemplo Completo
+
+```javascript
+let nome = "alice";
+let primeiraLetraMaiuscula = nome.charAt(0).toUpperCase(); // Retorna "A"
+console.log(primeiraLetraMaiuscula);
