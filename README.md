@@ -1,3 +1,23 @@
+# Explicação do Comando `toFixed(2)` em JavaScript
+
+O comando `toFixed(2)` é utilizado em JavaScript para formatar um número, limitando o número de casas decimais que ele exibe. Ele é especialmente útil quando se deseja trabalhar com valores monetários ou exibir resultados numéricos de forma mais legível.
+
+## Como Funciona o `toFixed()`
+
+O método `toFixed()` converte um número em uma string, mantendo um número específico de casas decimais. O número dentro dos parênteses determina quantas casas decimais o número exibido terá.
+
+### Sintaxe
+
+```javascript
+numero.toFixed(dígitos);
+
+let numero = 5.6789;
+let numeroFormatado = numero.toFixed(2); // Retorna "5.68"
+console.log(numeroFormatado);
+
+```
+No exemplo acima, o número 5.6789 foi arredondado para duas casas decimais, resultando em 5.68.
+
 # Explicação do Operador `typeof` em JavaScript
 
 O operador `typeof` em JavaScript é usado para determinar o tipo de uma variável ou expressão. Ele retorna uma string que representa o tipo da variável.
