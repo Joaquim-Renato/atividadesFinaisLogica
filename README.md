@@ -22,6 +22,9 @@ No exemplo acima, o número 5.6789 foi arredondado para duas casas decimais, res
 
 O operador `typeof` em JavaScript é usado para determinar o tipo de uma variável ou expressão. Ele retorna uma string que representa o tipo da variável.
 
+Dessa forma, o typeof ajuda a garantir que o código se comporta conforme esperado, dependendo do tipo de dado que está lidando.
+
+
 ## Tipos Retornados pelo `typeof`
 
 1. **`"undefined"`**: O valor é `undefined`.
@@ -59,25 +62,13 @@ console.log(typeof myFunction); // "function"
 ```
 --- 
 
-Uso do typeof em Código
+Uso do typeof em Código:
+<br>
 No meu código, o typeof é usado para verificar se uma variável contém uma string ou um número. Isso permite que o programa decida como proceder, exibindo a mensagem apropriada ao usuário.
 
 --- 
 
-# Exemplo no Código
-```javascript
-Copiar código
-if (typeof raizQuadradaMaior === "string") {
-    // Exibe a mensagem de erro
-} else {
-    // Exibe a raiz quadrada
-}
-```
-
-Dessa forma, o typeof ajuda a garantir que o código se comporta conforme esperado, dependendo do tipo de dado que está lidando.
-
-----
-## Explicação do Comando `charAt(0).toUpperCase()`
+# Explicação do Comando `charAt(0).toUpperCase()`
 
 O comando `charAt(0).toUpperCase()` é utilizado em JavaScript para manipular strings. Ele é frequentemente empregado para extrair e formatar a primeira letra de uma string.
 
@@ -114,11 +105,11 @@ console.log(primeiraLetraMaiuscula);
 ```
 --- 
 
-## Explicação da Função `Math.sqrt()` em JavaScript
+# Explicação da Função `Math.sqrt()` em JavaScript
 
 A função `Math.sqrt()` em JavaScript é utilizada para calcular a **raiz quadrada** de um número. Ela faz parte do objeto `Math`, que contém diversas funções matemáticas úteis.
 
-# Sintaxe
+## Sintaxe
 
 ```javascript
 Math.sqrt(x)
@@ -142,9 +133,9 @@ console.log(raizQuadrada);
 // A raiz quadrada de um número negativo não é um número real, então a função retorna NaN (Not-a-Number).
 `````
 ---
-## Explicação do Comando toString().split('').reverse().join('')
+# Explicação do Comando toString().split('').reverse().join('')
 
-# Descrição
+## Descrição
 
 O comando toString().split('').reverse().join('') é uma sequência de métodos utilizados para inverter uma string em JavaScript. Este conjunto de métodos é comumente usado quando você tem um número ou uma string e deseja inverter a ordem dos caracteres.
 
