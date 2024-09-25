@@ -111,3 +111,64 @@ Quando utilizados juntos como `charAt(0).toUpperCase()`, esses métodos permitem
 let nome = "alice";
 let primeiraLetraMaiuscula = nome.charAt(0).toUpperCase(); // Retorna "A"
 console.log(primeiraLetraMaiuscula);
+```
+--- 
+
+## Explicação da Função `Math.sqrt()` em JavaScript
+
+A função `Math.sqrt()` em JavaScript é utilizada para calcular a **raiz quadrada** de um número. Ela faz parte do objeto `Math`, que contém diversas funções matemáticas úteis.
+
+# Sintaxe
+
+```javascript
+Math.sqrt(x)
+
+```
+# Exemplo de Uso 
+
+````` javascript
+let numero = 16;
+let raizQuadrada = Math.sqrt(numero); // Retorna 4
+console.log(raizQuadrada);
+// Neste exemplo, a raiz quadrada de 16 é 4, e esse valor é retornado pela função.
+
+`````
+# Exemplo numero negativo :
+
+````` javascript
+let numero = -9;
+let raizQuadrada = Math.sqrt(numero); // Retorna NaN
+console.log(raizQuadrada);
+// A raiz quadrada de um número negativo não é um número real, então a função retorna NaN (Not-a-Number).
+`````
+---
+## Explicação do Comando toString().split('').reverse().join('')
+
+# Descrição
+
+O comando toString().split('').reverse().join('') é uma sequência de métodos utilizados para inverter uma string em JavaScript. Este conjunto de métodos é comumente usado quando você tem um número ou uma string e deseja inverter a ordem dos caracteres.
+
+# Passo a Passo
+toString(): Converte um valor (geralmente um número) para uma string.
+
+split(''): Divide a string em um array de caracteres, separando cada caractere da string.
+
+reverse(): Inverte a ordem dos elementos dentro do array.
+
+join(''): Junta todos os elementos do array em uma nova string, sem separadores.
+
+# Exemplo de Funcionamento
+# Exemplo 1: Inverter um número
+Suponha que você tenha o número 12345 e deseja invertê-lo.
+
+```` javascript
+Copiar código
+let numero = 12345;
+let numeroInvertido = numero.toString().split('').reverse().join('');
+console.log(numeroInvertido); // Saída: "54321"
+````
+```` javascript
+let palavra = "JavaScript";
+let palavraInvertida = palavra.split('').reverse().join('');
+console.log(palavraInvertida); // Saída: "tpircSavaJ"
+````
