@@ -36,13 +36,15 @@ console.log(typeof obj); // "object"
 
 function myFunction() {} // function
 console.log(typeof myFunction); // "function"
+```
 --- 
 
 Uso do typeof em Código
 No meu código, o typeof é usado para verificar se uma variável contém uma string ou um número. Isso permite que o programa decida como proceder, exibindo a mensagem apropriada ao usuário.
 
 --- 
-## Exemplo no Código
+
+# Exemplo no Código
 javascript
 Copiar código
 if (typeof raizQuadradaMaior === "string") {
@@ -54,7 +56,7 @@ if (typeof raizQuadradaMaior === "string") {
 Dessa forma, o typeof ajuda a garantir que o código se comporta conforme esperado, dependendo do tipo de dado que está lidando.
 
 ----
-# Explicação do Comando `charAt(0).toUpperCase()`
+## Explicação do Comando `charAt(0).toUpperCase()`
 
 O comando `charAt(0).toUpperCase()` é utilizado em JavaScript para manipular strings. Ele é frequentemente empregado para extrair e formatar a primeira letra de uma string.
 
