@@ -140,13 +140,13 @@ console.log(raizQuadrada);
 O comando toString().split('').reverse().join('') é uma sequência de métodos utilizados para inverter uma string em JavaScript. Este conjunto de métodos é comumente usado quando você tem um número ou uma string e deseja inverter a ordem dos caracteres.
 
 # Passo a Passo
-toString(): Converte um valor (geralmente um número) para uma string.
+**toString():** Converte um valor (geralmente um número) para uma string.
 
-split(''): Divide a string em um array de caracteres, separando cada caractere da string.
+**split(''):** Divide a string em um array de caracteres, separando cada caractere da string.
 
-reverse(): Inverte a ordem dos elementos dentro do array.
+**reverse():** Inverte a ordem dos elementos dentro do array.
 
-join(''): Junta todos os elementos do array em uma nova string, sem separadores.
+**join(''):** Junta todos os elementos do array em uma nova string, sem separadores.
 
 # Exemplo de Funcionamento
 # Exemplo 1: Inverter um número
